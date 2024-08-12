@@ -1,0 +1,323 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p,h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav{
+    border:1px solid black;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+nav ul li{
+    text-align: center;
+    list-style: none;
+    background-color: burlywood;
+}
+footer{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7px ;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+.r{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    background-image: url(./IMG_۲۰۲۴۰۸۰۳_۱۸۱۰۰۷.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    left: 400px;
+}
+.t{
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    background-image: url(./IMG_۲۰۲۴۰۸۰۳_۱۸۱۴۱۸.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    left: 400px;
+}
+.y{
+    border: 1px solid black;
+    height: 700px;
+    width: 500px;
+    background-image: url(./IMG_۲۰۲۴۰۸۰۳_۱۷۵۳۴۴.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    left: 400px;
+}
+.u{
+    border: 1px solid black;
+    height: 700px;
+    width: 500px;
+    background-image: url(./IMG_۲۰۲۴۰۸۰۳_۱۷۵۲۰۷.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    left: 400px;
+}
+.i{
+    border: 1px solid black;
+    height: 700px;
+    width: 500px;
+    background-image: url(./IMG_۲۰۲۴۰۸۰۳_۱۷۵۲۵۲.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    left: 400px;
+}
+@keyframes dream{
+    from{
+        transform: translatex(-100%);
+        opacity: 0 ;       
+    }
+    to{
+        transform: translatex(0);
+        opacity: 1;
+    }
+ }
+body{
+    animation-name: dream;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+header{
+    animation-name: dream;
+    animation-duration: 4s;
+    animation-timing-function:linear;
+    animation-delay: 0s;
+    text-align: center;
+}
+@media (max-width:1200px){  
+    nav{
+        width :1000px;
+        position: relative;
+        left: 11vw;
+    }
+    p{
+        font-size: 20px;
+    }
+    .i{
+        position: relative;
+        left:450px;
+        background-size: 400px;
+        width: 400px;
+    }
+    .r{
+        position: relative;
+        left:250px;
+        background-size: cover;
+        width: 800px;
+        height: 700px;
+    }
+    .t{
+        position: relative;
+        left:250px;
+        background-size: cover;
+        width: 800px;
+        height: 700px;
+    }
+    .y{
+        position: relative;
+        left:450px;
+        background-size: 400px;
+        width: 400px;
+    }
+     .u{
+        position: relative;
+        left:450px;
+        background-size: cover;
+        width: 400px;
+        height: 700px;
+    }
+}
+@media (max-width:992px){
+    nav{
+        width :800px;
+        position: relative;
+        left:6vw;
+    }
+    p{
+        font-size: 20px;
+    }
+    .i{
+        position: relative;
+        left:260px;
+        background-size: 400px;
+        width: 400px;
+    }
+    .r{
+        position: relative;
+        left:70px;
+        background-size: cover;
+        width: 800px;
+        height: 700px;
+    }
+    .t{
+        position: relative;
+        left:70px;
+        background-size: cover;
+        width: 800px;
+        height: 700px;
+    }
+    .y{
+        position: relative;
+        left:260px;
+        background-size: 400px;
+        width: 400px;
+    }
+    .u{
+        position: relative;
+        left:260px;
+        background-size: cover;
+        width: 400px;
+        height: 700px;
+    }
+}
+@media (max-width:768px){
+    nav{
+        width :500px;
+        position: relative;
+        left:13vw;
+    }
+    p{
+        font-size: 20px;
+    }
+    .i{
+        position: relative;
+        left:155px;
+        background-size: cover;
+        width: 400px;
+        height: 300px; 
+    } 
+    .r{
+        position: relative;
+        left:155px;
+        background-size: cover;
+        width: 400px;
+        height: 300px; 
+    }
+    .t{
+        position: relative;
+        left:155px;
+        background-size: cover;
+        width: 400px;
+        height: 300px;
+    }
+    .y{
+        position: relative;
+        left:155px;
+        background-size: 400px;
+        width: 400px;
+    }
+    .u{
+        position: relative;
+        left:155px;
+        background-size: cover;
+        width: 400px;
+        height: 700px;
+    }
+}
+@media (max-width:480px){
+    nav{
+        width :100px;
+        position: relative;
+        left:33vw;
+    }
+    p{
+        font-size: 20px;
+    }
+    .i{
+        position: relative;
+        left:2px;
+        background-size: 400px;
+        width: 400px;
+    }
+    .r{
+        position: relative;
+        left:2px;
+        background-size: 400px;
+        width: 400px;
+        height: 225px;
+    }
+    .t{
+        position: relative;
+        left:2px;
+        background-size: 400px;
+        width: 400px;
+        height: 225px;
+    }
+    .y{
+        position: relative;
+        left:2px;
+        background-size: 400px;
+        width: 400px;
+    }
+    .u{
+        position: relative;
+        left:2px;
+        background-size: cover;
+        width: 400px;
+        height: 700px;
+    }
+}
+@media(max-width:320px){
+    nav{
+        width :100px;
+        position: relative;
+        left:33vw;
+    }
+    p{
+        font-size: 20px;
+    }
+    .i{
+        position: relative;
+        left:2px;
+        background-size: 400px;
+        width: 400px;
+    }
+    .r{
+        position: relative;
+        left:2px;
+        background-size: 400px;
+        width: 400px;
+        height: 225px;
+    }
+    .t{
+        position: relative;
+        left:2px;
+        background-size: 400px;
+        width: 400px;
+        height: 225px;
+    }
+    .y{
+        position: relative;
+        left:2px;
+        background-size: 400px;
+        width: 400px;
+    }
+    .u{
+        position: relative;
+        left:2px;
+        background-size: cover;
+        width: 400px;
+        height: 700px;
+    }
+}
